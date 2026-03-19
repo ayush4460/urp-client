@@ -112,13 +112,3 @@ src/
 ├── main.tsx
 └── index.css
 ```
-
-## Epoch → IST Timestamps
-All API timestamps are **Unix epoch seconds**. Use these helpers:
-```ts
-import { epochToISTDate, epochToISTDateTime, epochToRelative } from '@/utils/epoch'
-
-epochToISTDate(user.createdAt)      // "01 Jan 2025"
-epochToISTDateTime(user.lastLoginAt) // "01 Jan 2025, 05:30 AM IST"
-epochToRelative(user.updatedAt)      // "2h ago"
-```
