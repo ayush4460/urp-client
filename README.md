@@ -279,7 +279,7 @@ npm run typecheck  # Run TypeScript type checking without building
 
 ## 🔗 Related
 
-- **Backend Repository** → [urp-backend](#) — .NET 8 Clean Architecture REST API
+- **Backend Repository** → [urp-backend](https://github.com/ayush4460/urp-backend) — .NET 8 Clean Architecture REST API
 - **Live API Docs** → `https://localhost:63823/swagger` (when backend is running)
 
 ---
